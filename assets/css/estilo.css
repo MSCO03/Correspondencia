@@ -1,0 +1,34 @@
+.navbar{
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+img{
+  width: 100%;
+}
+
+.btn-group{
+  vertical-align:vertical;
+
+  /*margin-top: 5px;*/
+}
+
+.row{
+  color: red;
+  text-align: center;
+}
+
+.panel{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.table{
+  display: table;
+}
+.table .row{
+  display: table-row;
+}
+.table .row div{
+  display: table-cell;
+}

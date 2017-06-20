@@ -10,54 +10,74 @@
   <!-- <link rel="stylesheet" href="<?=CSS?>sesion2.css"> -->
 </head>
 <body>
-  <header>
-    <img src="<?=IMG?>header-civiles1.jpg" alt="">
-  </header>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="Inicio">Inicio</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Correspondencia<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Buzon">Buzon</a></li> <!--barra de busqueda-->
-            <li><a href="TurnarOficioM">Turnar Oficio</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Oficios <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Bitacora">Bitácora</a></li> <!--barra de busqueda-->
-            <li><a href="Modal">Nuevo Oficio</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Usuarios<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Usuarios">Usuarios</a></li>
-            <li><a href="Modal">Nuevo Usuario</a></li>
-          </ul>
-        </li>
-
-      </ul>
-
-      <form class="navbar-form navbar-left">
-     <div class="form-group">
-       <input type="text" class="form-control" >
-     </div>
-     <button type="submit" class="btn btn-default">Buscar</button>
-   </form>
+    <?php $this->load->view("header.php"); ?>
 
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Cerrar Sesion</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="container">
+    <div id="correos" class="container">
 
-  <p>
-    <center>BITACORA</center>
-  </p>
+      <table id="correos" class="table table-hover table-bordered">
+        <thead>
+          <tr id="encabezado">
+            <th>No. Oficio</th>
+            <th>Dependencia</th>
+            <th>Asunto</th>
+            <th>Elaboró</th>
+            <th>Fecha</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>198</td>
+            <td>Secretaria Admnistrativa</td>
+            <td>Solicitud de pago de Remuneraciones</td>
+            <td>JGCh</td>
+            <td>18-04-2017</td>
+          </tr>
+
+          <tr>
+            <td>198</td>
+            <td>Secretaria Admnistrativa</td>
+            <td>Solicitud de pago de Remuneraciones</td>
+            <td>JGCh</td>
+            <td>18-04-2017</td>
+          </tr>
+
+          <tr>
+            <td>198</td>
+            <td>Secretaria Admnistrativa</td>
+            <td>Solicitud de pago de Remuneraciones</td>
+            <td>JGCh</td>
+            <td>18-04-2017</td>
+          </tr>
+
+          <tr>
+            <td>198</td>
+            <td>Secretaria Admnistrativa</td>
+            <td>Solicitud de pago de Remuneraciones</td>
+            <td>JGCh</td>
+            <td>18-04-2017</td>
+          </tr>
+
+          <tr>
+            <td>198</td>
+            <td>Secretaria Admnistrativa</td>
+            <td>Solicitud de pago de Remuneraciones</td>
+            <td>JGCh</td>
+            <td>18-04-2017</td>
+          </tr>
+
+
+
+
+
+
+
+        </tbody>
+      </table>
+
+      </div>
 </div>
   <script src="<?=JS?>jquery.js"></script>
   <script src="<?=JS?>bootstrap.min.js"></script>

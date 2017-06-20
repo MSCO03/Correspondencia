@@ -1,6 +1,76 @@
 .navbar{
-  border-top: 2px solid red;
-  border-bottom: 2px solid red;
+  border-top: 2px solid #CB3935;
+  border-bottom: 2px solid #CB3935;
+}
+
+.lista{
+  margin: 0px 0px 10px 270px;
+}
+
+#correos{
+  margin-top: 10px;
+  margin-right: -20px;
+}
+
+
+#logo{
+  height: 152px;
+  width: 152px;
+}
+
+#lineModalLabel{
+  color: #BD0000;
+}
+
+#enviar{
+  color: white;
+  background-color: #BD0000;
+}
+
+#azul{
+  color: gray;
+}
+
+
+label{
+  color: black;
+}
+
+.sr-only{
+  color: black;
+}
+
+
+.form-group{
+ text-align: left;
+}
+
+#encabezado{
+ border: 3px solid #CB3935;
+ color: #BD0000;
+}
+
+#myModal{
+  margin: 50px 300px 0px 300px;
+}
+#myModal1{
+  margin: 50px 400px 0px 400px;
+}
+
+#myModal2{
+  margin: 50px 400px 0px 400px;
+}
+
+
+#enviar{
+  margin-bottom: 11px;
+  margin-right: 25px;
+}
+
+#logo2{
+  height: 152px;
+  width: 152px;
+  margin: -146px 0px 0px 976px ;
 }
 
 img{
@@ -31,4 +101,9 @@ img{
 }
 .table .row div{
   display: table-cell;
+}
+
+
+#correos{
+  border-radius: 80px;
 }

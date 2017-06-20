@@ -10,49 +10,76 @@
   <!-- <link rel="stylesheet" href="<?=CSS?>sesion2.css"> -->
 </head>
 <body>
-  <header>
-    <img src="<?=IMG?>header-civiles1.jpg" alt="">
-  </header>
 
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="Inicio">Inicio</a></li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Correspondencia<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Buzon">Buzon</a></li> <!--barra de busqueda-->
-            <li><a href="Modal">Turnar Oficio</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Oficios <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Bitacora">Bitácora</a></li> <!--barra de busqueda-->
-            <li><a href="Modal">Nuevo Oficio</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Usuarios<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="Usuarios">Usuarios</a></li>
-            <li><a href="Modal">Nuevo Usuario</a></li>
-          </ul>
-        </li>
-
-      </ul>
+      <?php $this->load->view("header.php"); ?>
 
 
+      <div id="correos" class="container">
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Cerrar Sesion</a></li>
-      </ul>
-    </div>
-  </nav>
+        <table id="correos" class="table table-hover table-bordered">
+          <thead>
+            <tr id="encabezado">
+              <th>Login</th>
+              <th>Contraseña:</th>
+              <th>Nombre</th>
+              <th>Puesto</th>
+              <th>Nivel</th>
 
-  <div class="container">
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ejemplo1</td>
+              <td>asdgf45</td>
+              <td>M.I German Lopez </td>
+              <td>Secretario Ejecutivo</td>
+              <td>3</td>
+            </tr>
 
-  <p>
-    <center>USUARIOS</center>
+            <tr>
+              <td>Ejemplo1</td>
+              <td>asdgf45</td>
+              <td>M.I German Lopez </td>
+              <td>Secretario Ejecutivo</td>
+              <td>3</td>
+            </tr>
 
-  </p>
+            <tr>
+              <td>Ejemplo1</td>
+              <td>asdgf45</td>
+              <td>M.I German Lopez </td>
+              <td>Secretario Ejecutivo</td>
+              <td>3</td>
+            </tr>
+
+            <tr>
+              <td>Ejemplo1</td>
+              <td>asdgf45</td>
+              <td>M.I German Lopez </td>
+              <td>Secretario Ejecutivo</td>
+              <td>3</td>
+            </tr>
+
+            <tr>
+              <td>Ejemplo1</td>
+              <td>asdgf45</td>
+              <td>M.I German Lopez </td>
+              <td>Secretario Ejecutivo</td>
+              <td>3</td>
+            </tr>
+
+
+
+
+
+          </tbody>
+        </table>
+
+        </div>
+
+
+
+
 </div>
   <script src="<?=JS?>jquery.js"></script>
   <script src="<?=JS?>bootstrap.min.js"></script>

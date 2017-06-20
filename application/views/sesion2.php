@@ -17,15 +17,20 @@
       <div class='login'>
         <h2 >Inicio de Sesion</h2>
         <input name='username' placeholder='Nombre de Usuario' type='text'/>
-        <div id="errol29"> </div>
+        <center><div id="errol29"> </div></center>
         <input id='pw' name='password' placeholder='Contraseña' type='password'/>
-        <div id="errol30"> </div>
+        <center><div color="red" id="errol30"></div></center>
         <br>
         <br>
         <input id="enviar" onclick="Validacion();" type='button' value='INICIAR'/>
+        <div class="loader"></div>
         <a class='forgot' href='#'>Haz olvidado tu contraseña?</a>
-      </div>
 
+      </div>
+      <!-- <div class="progress progress-striped active" id="bsm2_gop2">
+        <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+        </div>
+      </div> -->
     </form>
     <div class="margen1">
       <img id=imagen1 src="<?=IMG?>EscudoFIROJO.png" class="img-responsive" alt="img-responsive">

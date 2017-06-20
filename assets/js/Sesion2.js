@@ -14,7 +14,7 @@ function Validacion()
 		{
 			if(data.estatus == 0)
 			{
-				alert('Acceso Permitido');
+				$(".loader").show();
 				location.href="Inicio";
 			}
 			else if(data.estatus == 1)
